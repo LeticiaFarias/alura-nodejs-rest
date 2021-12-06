@@ -1,11 +1,21 @@
 {
   "name": "projeto-nodejs-rest",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "license": "MIT",
-  "repository": {
-     "type": "git",
-     "url": "git+https://github.com/LeticiaFarias/alura-nodejs-rest.git"
+  "scripts": {
+    "dev": "nodemon src/index.js"
   },
-  "author": "Letícia Farias"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeticiaFarias/alura-nodejs-rest.git"
+  },
+  "author": "Letícia Farias",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
